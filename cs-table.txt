@@ -1,0 +1,10 @@
+CREATE TABLE tictactoe (
+    uno INT NOT NULL PRIMARY KEY,
+    uname VARCHAR(15) NOT NULL UNIQUE,
+    password VARCHAR(15) NOT NULL,
+    matches INT DEFAULT 0,
+    wins INT DEFAULT 0,
+    losses INT DEFAULT 0,
+    ties INT DEFAULT 0,
+    streak INT DEFAULT 0
+);
